@@ -290,219 +290,221 @@
 
                 </div>
 
+                <div class="col-sm-12">
+
+                    <h3 id="projects" class="section">4. Projects</h3>
+
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <td style="width: 50px">Year</td>
+                            <td>Company</td>
+                            <td>Activity</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>07/19-</td>
+                            <td><a href="https://raremaps.com/" target="_blank">RareMaps.com</a></td>
+                            <td>
+
+                                <ul>
+                                    <li>Refactored the maps upload and processing pipeline</li>
+                                    </li>
+                                    <li>Created analytics dashboards for display insights</li>
+                                    <li>Refactored the payment method, moving from legacy code to DirectPayment and ExpressCheckout.
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>07/15-</td>
+                            <td><a href="https://blazetrak.com/" target="_blank">Blazetrak</a></td>
+                            <td>
+
+                                <ul>
+                                    <li>Refactored the old platform, moving from mysql_connect to PDO and Doctrine 2.</li>
+                                    <li>Moved from a manual asset management to Bower, Gulp, and Elixir.</li>
+                                    <li>Created a mini-framework (Routing, Helpers, Security, Mail, Repositories, Console)
+                                        in order to standardize many of the functionalities in the platform using Composer.
+                                    </li>
+                                    <li>Refactored the submission process, moving from DropZone to fineUploader and
+                                        CameraTag, storing the information in Amazon S3.
+                                    </li>
+                                    <li>Created cron jobs in order to manage all the automatic activities in the platform
+                                        avoiding do manual review in several functionalities in the platform mainly in email
+                                        campaigns.
+                                    </li>
+                                    <li>Improved performance in the platform, refactoring the SQL queries and creating
+                                        indexes as well as adding APC.
+                                    </li>
+                                    <li>Refactored all the front and back-end code, moving to a MVC pattern.</li>
+                                    <li>Refactored the payment method, moving from legacy code to DirectPayment and
+                                        ExpressCheckout from Paypal adding Subuno for proven fraud transactions.
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>12/16-10/17</td>
+                            <td><a href="https://www.infinityhealthtech.com/" target="_blank">Infinity Health Tech</a></td>
+                            <td>
+
+                                <ul>
+                                    <li>Refactored the legacy code, moving from an unstructured to an OOP approach.</li>
+                                    <li>Installed and set up the workflow with NPM, Gulp, and Composer.</li>
+                                    <li>Moved the assets from local ones to AWS S3.</li>
+                                    <li>Managed the deployment to all the different environments (dev, staging, demo, production).</li>
+                                    <li>Implemented different modules for user, patients, doctors, and test management.</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>01/15 - 12/16</td>
+                            <td><a href="https://www.ticademia.com/" target="_blank">TICademia</a></td>
+                            <td>
+                                <ul>
+                                    <li>Refactored controllers and models in order to improve performance</li>
+                                    <li>Set up new Relic in order to monitor the application performance and errors</li>
+                                    <li>Implemented real times features (Chat, Duels) with Web Sockets using Pusher</li>
+                                    <li>Moved assets from local one to AWS S3</li>
+                                    <li>Improved API security</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>12/15-12/16</td>
+                            <td><span>Q Customer Intelligence (Lumiary)</span></td>
+                            <td>
+                                <ul>
+                                    <li>Integrated the platform with other services like Zendesk, MailChimp, Stripe, Bronto,
+                                        Lob, and BigCommerce via API, fetching information and storing it in a Mongo
+                                        database.
+                                    </li>
+                                    <li>Created API in Node.js and different modules in order to support the new database
+                                        schema (Invitations, Segmenting, Accounts, Authorization, Dashboards, Settings,
+                                        Orders ).
+                                    </li>
+                                    <li>Implemented API support for several requests to the ElasticSearch server.</li>
+                                    <li>Created a process to manage the application logs using AWS CloudWatch and cached
+                                        queries using AWS ElasticCache.
+                                    </li>
+                                    <li>Created test cases as requests to the different APIs in the platform.</li>
+                                    <li>Fixed bugs in the application.</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>01/15 - 01/16</td>
+                            <td>Globant (Company)</td>
+                            <td>
+                                <ul>
+                                    <li>Created several plugins to manage/show the content of the application using the
+                                        infuse.js plugin.
+                                    </li>
+                                    <li>Designed and implemented pixel perfect proofs of concept for several American
+                                        newspapers.
+                                    </li>
+                                    <li>Read information from an API developed in JSP in order to integrate and add new
+                                        functionalities in the Front-end.
+                                    </li>
+                                    <li>Maintained legacy code developed in JSP.</li>
+                                    <li>Solved several issues related to cross-browser and mobile devices.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>01/13 - 07/14</td>
+                            <td>ColumbusSoft (Company)</td>
+                            <td>
+                                <ul>
+                                    <li>Implemented a module in Laravel in order to connect with the Amazon API and extract
+                                        information to be published in the site.
+                                    </li>
+                                    <li>Designed and implemented graphic interfaces for an online vitamin shop using
+                                        Foundation.
+                                    </li>
+                                    <li>Maintained several indoor projects mainly implemented (schedules, billing, tasks).
+                                        and migrating some proects from Laravel 3 to Laravel 4.
+                                    </li>
+                                    <li>Implemented the checkout process using calls to the Amazon API using PHP.</li>
+                                    <li>Generated XML files using PHP to be imported for an external application.</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>01/13 - 01/15</td>
+                            <td>MySmartHealth (Company)</td>
+                            <td>
+                                <ul>
+                                    <li>Defined the architecture of a ophthalmology platform for doctors in order to manage
+                                        the clinics.
+                                    </li>
+                                    <li>Created the application core and structure using Laravel 4, and jQuery.</li>
+                                    <li>Migrated the platform from Laravel 4 to Laravel 5 and moved from jQuery to
+                                        AngularJS.
+                                    </li>
+                                    <li>Oversaw the process of code review, QA, and deployment using Git and Bitbucket.</li>
+                                    <li>Maintained the hosting and domain of the application, be completely ready in case of
+                                        any emergency or complaint from clients.
+                                    </li>
+                                    <li>Created the complete workflow for other developers, using Composer and Gulp in order
+                                        to optimize the development.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>01/12 - 01/13</td>
+                            <td><a href="https://www.optilodging.com/" target="_blank">Optilodging</a></td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Built the calendar of bookings in the application using jQuery promises.
+                                    </li>
+
+                                    <li>
+                                        Implemented the module to manage the bills in the hotels using CodeIgniter
+                                        framework.
+                                    </li>
+
+                                    <li>
+                                        Programmed a generic method to export data about the current guests in order to be
+                                        used by the national police in order to validate the information provided by the
+                                        guests.
+                                    </li>
+
+                                    <li>
+                                        Designed and implemented the database using MySQL and Navicat.
+                                    </li>
+
+                                    <li>
+                                        Implemented the fully responsive graphic interfaces designed by a web-designer using
+                                        Bootstrap.
+                                    </li>
+                                </ul>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
 
             <hr>
 
-            <div>
 
-                <h3 id="projects" class="section">2. Projects</h3>
-
-
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <td style="width: 50px">Year</td>
-                        <td>Company</td>
-                        <td>Activity</td>
-                    </tr>
-                    </thead>
-                    <tbody>
-
-                    <tr>
-                        <td>07/19-</td>
-                        <td><a href="https://raremaps.com/" target="_blank">RareMaps.com</a></td>
-                        <td>
-
-                            <ul>
-                                <li>Refactored the maps upload and processing pipeline</li>
-                                </li>
-                                <li>Created analytics dashboards for display insights</li>
-                                <li>Refactored the payment method, moving from legacy code to DirectPayment and ExpressCheckout.
-                            </ul>
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td>07/15-</td>
-                        <td><a href="https://blazetrak.com/" target="_blank">Blazetrak</a></td>
-                        <td>
-
-                            <ul>
-                                <li>Refactored the old platform, moving from mysql_connect to PDO and Doctrine 2.</li>
-                                <li>Moved from a manual asset management to Bower, Gulp, and Elixir.</li>
-                                <li>Created a mini-framework (Routing, Helpers, Security, Mail, Repositories, Console)
-                                    in order to standardize many of the functionalities in the platform using Composer.
-                                </li>
-                                <li>Refactored the submission process, moving from DropZone to fineUploader and
-                                    CameraTag, storing the information in Amazon S3.
-                                </li>
-                                <li>Created cron jobs in order to manage all the automatic activities in the platform
-                                    avoiding do manual review in several functionalities in the platform mainly in email
-                                    campaigns.
-                                </li>
-                                <li>Improved performance in the platform, refactoring the SQL queries and creating
-                                    indexes as well as adding APC.
-                                </li>
-                                <li>Refactored all the front and back-end code, moving to a MVC pattern.</li>
-                                <li>Refactored the payment method, moving from legacy code to DirectPayment and
-                                    ExpressCheckout from Paypal adding Subuno for proven fraud transactions.
-                                </li>
-                            </ul>
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td>12/16-10/17</td>
-                        <td><a href="https://www.infinityhealthtech.com/" target="_blank">Infinity Health Tech</a></td>
-                        <td>
-
-                            <ul>
-                                <li>Refactored the legacy code, moving from an unstructured to an OOP approach.</li>
-                                <li>Installed and set up the workflow with NPM, Gulp, and Composer.</li>
-                                <li>Moved the assets from local ones to AWS S3.</li>
-                                <li>Managed the deployment to all the different environments (dev, staging, demo, production).</li>
-                                <li>Implemented different modules for user, patients, doctors, and test management.</li>
-                            </ul>
-                        </td>
-
-                    </tr>
-
-                    <tr>
-                        <td>01/15 - 12/16</td>
-                        <td><a href="https://www.ticademia.com/" target="_blank">TICademia</a></td>
-                        <td>
-                            <ul>
-                                <li>Refactored controllers and models in order to improve performance</li>
-                                <li>Set up new Relic in order to monitor the application performance and errors</li>
-                                <li>Implemented real times features (Chat, Duels) with Web Sockets using Pusher</li>
-                                <li>Moved assets from local one to AWS S3</li>
-                                <li>Improved API security</li>
-                            </ul>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>12/15-12/16</td>
-                        <td><span>Q Customer Intelligence (Lumiary)</span></td>
-                        <td>
-                            <ul>
-                                <li>Integrated the platform with other services like Zendesk, MailChimp, Stripe, Bronto,
-                                    Lob, and BigCommerce via API, fetching information and storing it in a Mongo
-                                    database.
-                                </li>
-                                <li>Created API in Node.js and different modules in order to support the new database
-                                    schema (Invitations, Segmenting, Accounts, Authorization, Dashboards, Settings,
-                                    Orders ).
-                                </li>
-                                <li>Implemented API support for several requests to the ElasticSearch server.</li>
-                                <li>Created a process to manage the application logs using AWS CloudWatch and cached
-                                    queries using AWS ElasticCache.
-                                </li>
-                                <li>Created test cases as requests to the different APIs in the platform.</li>
-                                <li>Fixed bugs in the application.</li>
-                            </ul>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>01/15 - 01/16</td>
-                        <td>Globant (Company)</td>
-                        <td>
-                            <ul>
-                                <li>Created several plugins to manage/show the content of the application using the
-                                    infuse.js plugin.
-                                </li>
-                                <li>Designed and implemented pixel perfect proofs of concept for several American
-                                    newspapers.
-                                </li>
-                                <li>Read information from an API developed in JSP in order to integrate and add new
-                                    functionalities in the Front-end.
-                                </li>
-                                <li>Maintained legacy code developed in JSP.</li>
-                                <li>Solved several issues related to cross-browser and mobile devices.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>01/13 - 07/14</td>
-                        <td>ColumbusSoft (Company)</td>
-                        <td>
-                            <ul>
-                                <li>Implemented a module in Laravel in order to connect with the Amazon API and extract
-                                    information to be published in the site.
-                                </li>
-                                <li>Designed and implemented graphic interfaces for an online vitamin shop using
-                                    Foundation.
-                                </li>
-                                <li>Maintained several indoor projects mainly implemented (schedules, billing, tasks).
-                                    and migrating some proects from Laravel 3 to Laravel 4.
-                                </li>
-                                <li>Implemented the checkout process using calls to the Amazon API using PHP.</li>
-                                <li>Generated XML files using PHP to be imported for an external application.</li>
-                            </ul>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>01/13 - 01/15</td>
-                        <td>MySmartHealth (Company)</td>
-                        <td>
-                            <ul>
-                                <li>Defined the architecture of a ophthalmology platform for doctors in order to manage
-                                    the clinics.
-                                </li>
-                                <li>Created the application core and structure using Laravel 4, and jQuery.</li>
-                                <li>Migrated the platform from Laravel 4 to Laravel 5 and moved from jQuery to
-                                    AngularJS.
-                                </li>
-                                <li>Oversaw the process of code review, QA, and deployment using Git and Bitbucket.</li>
-                                <li>Maintained the hosting and domain of the application, be completely ready in case of
-                                    any emergency or complaint from clients.
-                                </li>
-                                <li>Created the complete workflow for other developers, using Composer and Gulp in order
-                                    to optimize the development.
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>01/12 - 01/13</td>
-                        <td><a href="https://www.optilodging.com/" target="_blank">Optilodging</a></td>
-                        <td>
-                            <ul>
-                                <li>
-                                    Built the calendar of bookings in the application using jQuery promises.
-                                </li>
-
-                                <li>
-                                    Implemented the module to manage the bills in the hotels using CodeIgniter
-                                    framework.
-                                </li>
-
-                                <li>
-                                    Programmed a generic method to export data about the current guests in order to be
-                                    used by the national police in order to validate the information provided by the
-                                    guests.
-                                </li>
-
-                                <li>
-                                    Designed and implemented the database using MySQL and Navicat.
-                                </li>
-
-                                <li>
-                                    Implemented the fully responsive graphic interfaces designed by a web-designer using
-                                    Bootstrap.
-                                </li>
-                            </ul>
-
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
 
 
         </div>
